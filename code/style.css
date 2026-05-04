@@ -1,0 +1,50 @@
+ body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .cabecera{
+            background-color: rgb(40, 50, 82);
+        }
+        #vernoticias{
+            background-color: rgb(120, 142, 214);
+            border: 1px;
+            border-style: solid;
+            border-radius: 5px;
+            color: white;
+            font-size: 15px;
+        }
+        #vernoticias:hover{
+            background-color: rgb(255, 255, 255);
+            color: rgb(120, 142, 214);
+        }
+        .tarjeta{
+            background-color: rgb(255, 255, 255);
+            width: 90%;
+            height: auto;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 3%;
+            border-radius: 5px;
+            padding: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            
+        }
+        .tarjeta:hover{
+            transform: scale(1.01);
+        }
+        .barranav{
+            background-color: rgb(40, 50, 82);
+            width: 100%;
+        }
+        .navboton{
+            background-color: rgb(40, 50, 82);
+            border: 0px;
+            
+            color: white;
+            font-size: 15px;
+            
+        }
+        .navboton:hover{
+            background-color: rgb(255, 255, 255);
+            color: rgb(40, 50, 82);
+        }
