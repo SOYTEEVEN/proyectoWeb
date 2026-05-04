@@ -16,9 +16,10 @@
         <div style="width: 100%; height:24% ; float: left; background-color: rgb(40, 50, 82);">
             <div style="width: 5%; height:100% ; float: left; background-color: rgb(40, 50, 82);"></div>
             <a href="index.html" style="text-decoration: none;"><button style="background-color: rgb(40, 50, 82); border: 0px; color: white; font-size: 15px; padding: 10px 15px; cursor: pointer;">Inicio</button></a>
-            <a href="noticias.html" style="text-decoration: none;"><button style="background-color: rgb(40, 50, 82); border: 0px; color: white; font-size: 15px; padding: 10px 15px; cursor: pointer;">Noticias</button></a>
+            <a href="noticia.php" style="text-decoration: none;"><button style="background-color: rgb(40, 50, 82); border: 0px; color: white; font-size: 15px; padding: 10px 15px; cursor: pointer;">Noticias</button></a>
             <a href="nosotros.html" style="text-decoration: none;"><button style="background-color: rgb(40, 50, 82); border: 0px; color: white; font-size: 15px; padding: 10px 15px; cursor: pointer;">Nosotros</button></a>
             <a href="contacto.html" style="text-decoration: none;"><button style="background-color: rgb(40, 50, 82); border: 0px; color: white; font-size: 15px; padding: 10px 15px; cursor: pointer;">Contacto</button></a>
+            <a href="categorias.html" style="text-decoration: none;"><button style="background-color: rgb(40, 50, 82); border: 0px; color: white; font-size: 15px; padding: 10px 15px; cursor: pointer;">Categorías</button></a>
         </div>
     </div>
 
@@ -50,7 +51,7 @@
             <br>
             
             <h3 style="color: rgb(52, 61, 94);">Explora el Proyecto</h3>
-            <a href="noticias.html" style="color: rgb(120, 142, 214); text-decoration: none; font-weight: bold; font-size: 18px; margin: 10px 20px; display: inline-block;">📰 Noticias</a>
+            <a href="noticia.php" style="color: rgb(120, 142, 214); text-decoration: none; font-weight: bold; font-size: 18px; margin: 10px 20px; display: inline-block;">📰 Noticias</a>
             <a href="categorias.html" style="color: rgb(120, 142, 214); text-decoration: none; font-weight: bold; font-size: 18px; margin: 10px 20px; display: inline-block;">🏷️ Categorías</a>
             <a href="contacto.html" style="color: rgb(120, 142, 214); text-decoration: none; font-weight: bold; font-size: 18px; margin: 10px 20px; display: inline-block;">✉️ Contacto</a>
             <br><br>
