@@ -1,0 +1,127 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - ITINNews</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        .cabecera{
+            background-color: rgb(40, 50, 82);
+        }
+        .tarjeta{
+            background-color: rgb(255, 255, 255);
+            width: 80%; /* Un poco más angosta para el formulario */
+            height: auto;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 3%;
+            margin-bottom: 3%;
+            border-radius: 5px;
+            padding: 20px;
+            box-sizing: border-box;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Ligera sombra para que resalte */
+        }
+        .barranav{
+            background-color: rgb(40, 50, 82);
+            width: 100%;
+        }
+        .navboton{
+            background-color: rgb(40, 50, 82);
+            border: 0px;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+            padding: 5px 10px;
+        }
+        .navboton:hover{
+            background-color: rgb(255, 255, 255);
+            color: rgb(40, 50, 82);
+        }
+        
+        /* Estilos nuevos para el formulario de contacto */
+        .input-contacto {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid rgb(120, 142, 214);
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .btn-enviar {
+            background-color: rgb(120, 142, 214);
+            border: 1px solid rgb(120, 142, 214);
+            border-radius: 5px;
+            color: white;
+            font-size: 15px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .btn-enviar:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(120, 142, 214);
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <div style="width: 100%; height:15% ; float: left;" class="cabecera">
+        <div style="width: 100%; height:15% ; float: left;" class="cabecera"></div>
+        <div style="width: 5%; height:1px ; float: left;" class="cabecera"></div>
+        <div style="width: 95%; height:40% ; float: left;" class="cabecera">
+            <p style="color: white; font-size: 20px;">
+                ITINNews
+            </p>
+        </div>
+        <div style="width: 100%; height:20% ; float: left;" class="barranav"></div>
+        <div style="width: 100%; height:24% ; float: left;" class="barranav">
+            <div style="width: 5%; height:100% ; float: left;" class="barranav"></div>
+            <!-- Enlaces de navegación actualizados -->
+            <a href="index.html"><button class="navboton">Inicio</button></a>
+            <a href="noticia.php"><button class="navboton">Noticias</button></a>
+            <a href="contacto.html"><button class="navboton">Contacto</button></a>
+        </div>
+    </div>
+
+    <!-- Banner principal para contacto -->
+    <div style="width: 100%; height:15% ;background-color: rgb(52, 61, 94); float: left;">
+        <p style="color: white; font-size: 25px; text-align: center; padding-top: 10px;"><b>Contáctanos</b></p>
+        <p style="color: white; font-size: 15px; text-align: center;">¿Tienes alguna duda o noticia que compartir? Escríbenos.</p>
+    </div>
+
+    <!-- Sección del Formulario -->
+    <div style="width: 100%; height:auto ;background-color: rgb(231, 234, 235); float: left; padding-bottom: 20px;">
+        <div class="tarjeta">
+            <h2 style="color: rgb(52, 61, 94); margin-top: 0;">Envíanos un mensaje</h2>
+            
+            <form action="procesar.php" method="POST">
+                 <label style="color: rgb(52, 61, 94); font-weight: bold;">Nombre completo:</label>
+   
+                <input type="text" name="nombre" class="input-contacto" placeholder="Tu nombre" required>
+                
+                <label style="color: rgb(52, 61, 94); font-weight: bold;">Correo electrónico:</label>
+                <!-- Agregamos name="correo" -->
+                <input type="email" name="correo" class="input-contacto" placeholder="tu-correo@ejemplo.com" required>
+                
+                <label style="color: rgb(52, 61, 94); font-weight: bold;">Asunto:</label>
+                <!-- Agregamos name="asunto" -->
+                <input type="text" name="asunto" class="input-contacto" placeholder="¿De qué trata tu mensaje?" required>
+                
+                <label style="color: rgb(52, 61, 94); font-weight: bold;">Mensaje:</label>
+                <!-- Agregamos name="mensaje" -->
+                <textarea name="mensaje" class="input-contacto" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                
+                <center>
+                    <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+                </center>
+        </form>
+
+    <!-- Pie de página -->
+    <div style="width: 100%; height:10% ;background-color: rgb(52, 61, 94); float: left; display: flex; align-items: center; justify-content: center;">
+        <p style="color: white; font-size: 15px; text-align: center; margin: 0;"> 2026 | ITINNews | Todos los derechos reservados </p>
+    </div>
+</body>
+</html>
