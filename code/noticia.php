@@ -76,7 +76,7 @@
             <p style="color: white; font-size: 18px;">DESEAS QUE TE LLEGUE INFORMACION A TU CORREO ELECTRONICO?</p>
              
              <form action="" method="post">
-                <label style="color: white;">Nombre:</label>
+                <label style="color: white;">Nombre de la persona:</label>
                 <input type="text" name="nombre">
 
                 <label style="color: white;">Correo:</label>
