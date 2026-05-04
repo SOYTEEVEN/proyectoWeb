@@ -96,25 +96,27 @@
         <div class="tarjeta">
             <h2 style="color: rgb(52, 61, 94); margin-top: 0;">Envíanos un mensaje</h2>
             
-            <form action="#" method="POST">
-                <label style="color: rgb(52, 61, 94); font-weight: bold;">Nombre completo:</label>
-                <input type="text" class="input-contacto" placeholder="Tu nombre" required>
+            <form action="procesar_contacto.php" method="POST">
+                 <label style="color: rgb(52, 61, 94); font-weight: bold;">Nombre completo:</label>
+   
+                <input type="text" name="nombre" class="input-contacto" placeholder="Tu nombre" required>
                 
                 <label style="color: rgb(52, 61, 94); font-weight: bold;">Correo electrónico:</label>
-                <input type="email" class="input-contacto" placeholder="tu-correo@ejemplo.com" required>
+                <!-- Agregamos name="correo" -->
+                <input type="email" name="correo" class="input-contacto" placeholder="tu-correo@ejemplo.com" required>
                 
                 <label style="color: rgb(52, 61, 94); font-weight: bold;">Asunto:</label>
-                <input type="text" class="input-contacto" placeholder="¿De qué trata tu mensaje?" required>
+                <!-- Agregamos name="asunto" -->
+                <input type="text" name="asunto" class="input-contacto" placeholder="¿De qué trata tu mensaje?" required>
                 
                 <label style="color: rgb(52, 61, 94); font-weight: bold;">Mensaje:</label>
-                <textarea class="input-contacto" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                <!-- Agregamos name="mensaje" -->
+                <textarea name="mensaje" class="input-contacto" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
                 
                 <center>
                     <button type="submit" class="btn-enviar">Enviar Mensaje</button>
                 </center>
-            </form>
-        </div>
-    </div>
+        </form>
 
     <!-- Pie de página -->
     <div style="width: 100%; height:10% ;background-color: rgb(52, 61, 94); float: left; display: flex; align-items: center; justify-content: center;">
