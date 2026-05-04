@@ -1,5 +1,6 @@
  body{
             font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
         }
         .cabecera{
             background-color: rgb(40, 50, 82);
@@ -31,6 +32,38 @@
         }
         .tarjeta:hover{
             transform: scale(1.01);
+        }
+        .contacto-page .tarjeta{
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 3%;
+            margin-bottom: 3%;
+            padding: 20px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+        }
+        .contacto-page .input-contacto {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid rgb(120, 142, 214);
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .contacto-page .btn-enviar {
+            background-color: rgb(120, 142, 214);
+            border: 1px solid rgb(120, 142, 214);
+            border-radius: 5px;
+            color: white;
+            font-size: 15px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .contacto-page .btn-enviar:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(120, 142, 214);
         }
         .barranav{
             background-color: rgb(40, 50, 82);

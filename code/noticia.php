@@ -1,12 +1,26 @@
-
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <title>Noticias</title>
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div style="width: 100%; height:15% ; float: left;" class="cabecera">
+        <div style="width: 100%; height:15% ; float: left;" class="cabecera"></div>
+        <div style="width: 5%; height:1px ; float: left;" class="cabecera"></div>
+        <div style="width: 95%; height:40% ; float: left;" class="cabecera">
+            <p style="color: white; font-size: 20px;">ITINNews</p>
+        </div>
+        <div style="width: 100%; height:20% ; float: left;" class="barranav"></div>
+        <div style="width: 100%; height:24% ; float: left;" class="barranav">
+            <div style="width: 5%; height:100% ; float: left;" class="barranav"></div>
+            <a href="index.html"><button class="navboton">Inicio</button></a>
+            <a href="noticia.php"><button class="navboton">Noticias</button></a>
+            <a href="contacto.html"><button class="navboton">Contacto</button></a>       
+            <a href="categorias.html"><button class="navboton">Categorías</button></a>
+        </div>
+    </div>
+
     <div style="width: 100%; height:10%; background-color: rgb(52, 61, 94); float: left;"></div>
 
     <div style="width: 100%; height:auto; background-color: rgb(231, 234, 235); float: left;">
